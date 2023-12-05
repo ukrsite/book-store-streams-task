@@ -1,0 +1,8 @@
+id,name,genre,ageGroup,price,publicationYear,author,numberOfPages,characteristics,description,language
+1,The Great Gatsby,Classics,ADULT,12.99,2022-01-18,F. Scott Fitzgerald,180,Roaring Twenties,A tragic love story,ENGLISH
+6,The Wind-Up Bird Chronicle,Contemporary Fiction,ADULT,12.25,2022-01-05,Haruki Murakami,607,Surrealism,A man's search for his missing wife,JAPANESE
+9,One Hundred Years of Solitude,Magical Realism,ADULT,14.00,2022-01-07,Gabriel García Márquez,417,Magical realism,A multi-generational tale in Macondo,SPANISH
+27,Moby-Dick,Adventure,ADULT,13.50,2022-01-26,Herman Melville,625,Whaling,The pursuit of the white whale,ENGLISH
+44,1Q84,Science Fiction,ADULT,13.99,2022-01-22,Haruki Murakami,1318,Surrealism,Parallel worlds and strange happenings,ENGLISH
+46,Le Rouge et le Noir,Classics,ADULT,12.50,2022-01-23,Stendhal,432,Historical Fiction,Les ambitions de Julien Sorel,FRENCH
+53,海辺のカフカ,Contemporary Fiction,ADULT,12.75,2022-01-10,Haruki Murakami,402,Surrealism,A young boy's quest by the sea,JAPANESE
