@@ -12,15 +12,26 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import static com.epam.rd.autocode.assessment.basics.entity.MethodChecker.isMethodStartsWithAndIsAssignable;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FindTest {
 
     private static Store store;
+
+    @BeforeAll
+    static void testsOverrideFindMethodStore() {
+        long numberOfFindOverrideMethods = Arrays.stream(Store.class.getDeclaredMethods())
+                .filter(val -> isMethodStartsWithAndIsAssignable(val, "find", Find.class))
+                .count();
+        assertEquals(7, numberOfFindOverrideMethods,
+                "Find methods of Store has not implemented right");
+    }
 
     @BeforeAll
     static void setGlobal() throws Exception {
