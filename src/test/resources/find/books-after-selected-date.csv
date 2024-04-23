@@ -1,4 +1,4 @@
-id,name,genre,ageGroup,price,publicationYear,author,numberOfPages,characteristics,description,language
+id,name,genre,ageGroup,price,publicationDate,author,numberOfPages,characteristics,description,language
 2,To Kill a Mockingbird,Classics,TEEN,9.95,2022-01-28,Harper Lee,281,Southern Gothic,A tale of racial injustice,ENGLISH
 23,The Shining,Horror,ADULT,10.25,2022-01-21,Stephen King,447,Psychological Horror,The terror at the Overlook Hotel,ENGLISH
 26,Brave New World,Dystopian,ADULT,11.75,2022-01-19,Aldous Huxley,311,Totalitarianism,A future where individuality is suppressed,ENGLISH
