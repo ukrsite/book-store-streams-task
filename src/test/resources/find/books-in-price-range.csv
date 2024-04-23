@@ -1,4 +1,4 @@
-id,name,genre,ageGroup,price,publicationYear,author,numberOfPages,characteristics,description,language
+id,name,genre,ageGroup,price,publicationDate,author,numberOfPages,characteristics,description,language
 1,The Great Gatsby,Classics,ADULT,12.99,2022-01-18,F. Scott Fitzgerald,180,Roaring Twenties,A tragic love story,ENGLISH
 6,The Wind-Up Bird Chronicle,Contemporary Fiction,ADULT,12.25,2022-01-05,Haruki Murakami,607,Surrealism,A man's search for his missing wife,JAPANESE
 9,One Hundred Years of Solitude,Magical Realism,ADULT,14.00,2022-01-07,Gabriel García Márquez,417,Magical realism,A multi-generational tale in Macondo,SPANISH
